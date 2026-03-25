@@ -20,28 +20,9 @@ Basada en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Mon
 
 ## 📂 Proyectos destacados
 
-
-### 🔬 [Machine Learning — Clasificación de Cáncer de Mama](https://github.com/pazssanti/modelos_predictivos_clasificacion_cancer_de_mama)
-Comparación de KNN, Regresión Logística, Árboles de Decisión, Random Forest y SVM sobre 569 observaciones. **Random Forest alcanzó AUC = 0,9993.** Validación cruzada k-fold y curvas ROC.  
-`R` `caret` `pROC` `ggplot2`
-
----
-
-### 🏦 [Clasificación de Potenciales Clientes Bancarios](https://github.com/pazssanti/DM_Clasificacion_Potenciales_Clientes_Bancarios)
-Minería de datos para segmentar y clasificar clientes potenciales del sector bancario. EDA, selección de variables con ganancia de información y comparación de clasificadores supervisados.  
-`R` `caret` `FSelector` `ggplot2`
-
----
-
-### 🏠 [Clustering de Precios de Viviendas — Kaggle House Prices](https://github.com/pazssanti/Mineria-de-datos-Precio-Casas-IOWA)
-PCA con 24 componentes (95% varianza), K-means (k=2) y Hierarchical Clustering (k=4) sobre 1.460 obs. y 81 variables. Imputación CART con `mice`.  
-`R` `mice` `cluster` `factoextra`
-
----
-
-### 📋 [Minería de Datos — Encuesta CASEN 2022](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
-Análisis de variable ingreso en **202.231 observaciones**. Imputación múltiple (PMM, CART, Lasso). Selección de variables con `information gain`: nivel educacional como principal predictor del ingreso.  
-`R` `mice` `FSelector` `haven` `ggplot2`
+### 📐 [Bayesian Inference — Rasch Poisson Count Model (MCMC)](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
+Estimación MCMC con 3 cadenas y 200k iteraciones para datos de 228 estudiantes y 20 ítems. Diagnóstico de convergencia con Geweke, Gelman-Rubin y Heidelberger-Welch. Comparación inferencia bayesiana vs. clásica por AIC/BIC — **AIC bayesiano: 24.901 vs. clásico: 24.945**.  
+`R` `JAGS` `rjags` `coda` `lme4`
 
 ---
 
@@ -51,9 +32,33 @@ Implementación y comparación de Epsilon-Greedy, UCB y Thompson Sampling en Pyt
 
 ---
 
-### 📐 [Bayesian Inference — Rasch Poisson Count Model (MCMC)](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
-Estimación MCMC con 3 cadenas y 200k iteraciones para datos de 228 estudiantes y 20 ítems. Diagnóstico de convergencia con Geweke, Gelman-Rubin y Heidelberger-Welch. Comparación inferencia bayesiana vs. clásica por AIC/BIC — **AIC bayesiano: 24.901 vs. clásico: 24.945**.  
-`R` `JAGS` `rjags` `coda` `lme4`
+### 🔬 [Machine Learning — Breast Cancer Classification](https://github.com/pazssanti/modelos_predictivos_clasificacion_cancer_de_mama)
+Comparación de KNN, Regresión Logística, Árboles de Decisión, Random Forest y SVM sobre 569 observaciones. **Random Forest alcanzó AUC = 0,9993.** Validación cruzada k-fold y curvas ROC.  
+`R` `caret` `pROC` `ggplot2`
+
+---
+
+### 🏦 [Machine Learning — Bank Customer Lead Classification](https://github.com/pazssanti/DM_Clasificacion_Potenciales_Clientes_Bancarios)
+Minería de datos para segmentar y clasificar clientes potenciales del sector bancario. EDA, selección de variables con ganancia de información y comparación de clasificadores supervisados.  
+`R` `caret` `FSelector` `ggplot2`
+
+---
+
+### 🏠 [Machine Learning — Housing Price Clustering (Kaggle)](https://github.com/pazssanti/Mineria-de-datos-Precio-Casas-IOWA)
+PCA con 24 componentes (95% varianza), K-means (k=2) y Hierarchical Clustering (k=4) sobre 1.460 obs. y 81 variables. Imputación CART con `mice`.  
+`R` `mice` `cluster` `factoextra`
+
+---
+
+### 📋 [Data Mining — CASEN 2022 Survey (Chile)](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
+Análisis de variable ingreso en **202.231 observaciones**. Imputación múltiple (PMM, CART, Lasso). Selección de variables con `information gain`: nivel educacional como principal predictor del ingreso.  
+`R` `mice` `FSelector` `haven` `ggplot2`
+
+---
+
+
+
+
 
 ## 📫 Contacto
 
