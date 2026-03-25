@@ -51,6 +51,10 @@ Implementación y comparación de Epsilon-Greedy, UCB y Thompson Sampling en Pyt
 
 ---
 
+### 📐 [Bayesian Inference — Rasch Poisson Count Model (MCMC)](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
+Estimación MCMC con 3 cadenas y 200k iteraciones para datos de 228 estudiantes y 20 ítems. Diagnóstico de convergencia con Geweke, Gelman-Rubin y Heidelberger-Welch. Comparación inferencia bayesiana vs. clásica por AIC/BIC — **AIC bayesiano: 24.901 vs. clásico: 24.945**.  
+`R` `JAGS` `rjags` `coda` `lme4`
+
 ## 📫 Contacto
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mpaz--santi-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/mpaz-santi)
