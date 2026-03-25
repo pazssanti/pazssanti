@@ -20,38 +20,34 @@ Basada en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Mon
 
 ## 📂 Proyectos destacados
 
-### 🔬 [Análisis exploratorio CASEN 2022](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
-Minería de datos sobre 202.231 observaciones de la Encuesta CASEN. Análisis exploratorio, detección de outliers con z-score, imputación múltiple comparando PMM, CART y Lasso. Selección de variables con `information gain` y `gain.ratio` — nivel educacional como principal predictor del ingreso.  
-`R` `mice` `FSelector` `ggplot2`
 
----
-
-### 🤖 Machine Learning — Clasificación de Cáncer de Mama *(próximamente)*
-Comparación de KNN, Regresión Logística, Árboles de Decisión, Random Forest y SVM.
-Random Forest alcanzó **AUC = 0,9993**. Validación cruzada k-fold y curvas ROC.  
+### 🔬 [Machine Learning — Clasificación de Cáncer de Mama](https://github.com/pazssanti/modelos_predictivos_clasificacion_cancer_de_mama)
+Comparación de KNN, Regresión Logística, Árboles de Decisión, Random Forest y SVM sobre 569 observaciones. **Random Forest alcanzó AUC = 0,9993.** Validación cruzada k-fold y curvas ROC.  
 `R` `caret` `pROC` `ggplot2`
 
 ---
 
-### 📊 Econometría Bayesiana — Modelo Rasch Poisson (MCMC) *(próximamente)*
-Estimación bayesiana con 3 cadenas MCMC y 200k iteraciones para datos de 228 estudiantes.
-Diagnóstico de convergencia con tests de Geweke, Gelman-Rubin y Heidelberger-Welch.
-Comparación bayesiana vs. clásica por AIC/BIC.  
-`R` `JAGS` `coda` `lme4`
+### 🏦 [Clasificación de Potenciales Clientes Bancarios](https://github.com/pazssanti/DM_Clasificacion_Potenciales_Clientes_Bancarios)
+Minería de datos para segmentar y clasificar clientes potenciales del sector bancario. EDA, selección de variables con ganancia de información y comparación de clasificadores supervisados.  
+`R` `caret` `FSelector` `ggplot2`
 
 ---
 
-### 🎰 Reinforcement Learning — Multi-Armed Bandit *(próximamente)*
-Implementación y comparación de Epsilon-Greedy, UCB y Thompson Sampling en Python.
-Evaluación con recompensa acumulada y arrepentimiento. Comparación estadística con ANOVA y Tukey HSD.  
-`Python` `numpy` `scipy` `statsmodels` `matplotlib`
-
----
-
-### 🏠 Clustering de Precios de Viviendas — Kaggle House Prices *(próximamente)*
-PCA (95% varianza en 24 componentes), K-means y Hierarchical Clustering sobre 1.460 obs. y 81 variables.
-Imputación CART con librería mice.  
+### 🏠 [Clustering de Precios de Viviendas — Kaggle House Prices](https://github.com/pazssanti/Mineria-de-datos-Precio-Casas-IOWA)
+PCA con 24 componentes (95% varianza), K-means (k=2) y Hierarchical Clustering (k=4) sobre 1.460 obs. y 81 variables. Imputación CART con `mice`.  
 `R` `mice` `cluster` `factoextra`
+
+---
+
+### 📋 [Minería de Datos — Encuesta CASEN 2022](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
+Análisis de variable ingreso en **202.231 observaciones**. Imputación múltiple (PMM, CART, Lasso). Selección de variables con `information gain`: nivel educacional como principal predictor del ingreso.  
+`R` `mice` `FSelector` `haven` `ggplot2`
+
+---
+
+### 🎰 [Reinforcement Learning — Multi-Armed Bandit](https://github.com/pazssanti/reinforcement-learning-mab)
+Implementación y comparación de Epsilon-Greedy, UCB y Thompson Sampling en Python. Evaluación con recompensa acumulada y arrepentimiento. Comparación estadística con **ANOVA + Tukey HSD**.  
+`Python` `numpy` `scipy` `statsmodels` `matplotlib`
 
 ---
 
@@ -59,3 +55,4 @@ Imputación CART con librería mice.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mpaz--santi-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/mpaz-santi)
 [![Email](https://img.shields.io/badge/Email-pazssanti@gmail.com-D14836?style=flat&logo=gmail)](mailto:pazssanti@gmail.com)
+tyle=flat&logo=gmail)](mailto:pazssanti@gmail.com)
