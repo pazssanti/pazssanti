@@ -4,7 +4,7 @@
 
 Ingeniera Civil Industrial con Magíster en Ciencias de la Ingeniería (UDP, 2025, Distinción).
 Especializada en análisis de datos, machine learning y modelado estadístico con Python y R.
-Basada en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Montt.
+Resido en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Montt.
 
 ---
 
