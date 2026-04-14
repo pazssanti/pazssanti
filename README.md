@@ -2,9 +2,7 @@
 
 **Data Analyst · Business Analyst · Estadística Aplicada**
 
-Ingeniera Civil Industrial con Magíster en Ciencias de la Ingeniería (UDP, 2025, Distinción).
-Especializada en análisis de datos, machine learning y modelado estadístico con Python y R.
-Resido en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Montt.
+Ingeniera Civil Industrial con Magíster en Ciencias (Distinción). Entusiasta de la Ciencia de Datos e IA con alta capacidad de autoaprendizaje. Enfocada en transformar datos complejos en soluciones de negocio. Disponibilidad para trabajo presencial en la zona (Puerto Montt/Puerto Varas) o remoto.
 
 ---
 
