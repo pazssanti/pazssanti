@@ -20,6 +20,15 @@ Resido en Puerto Varas 🇨🇱 — disponible remota o presencial en Puerto Mon
 
 ## 📂 Proyectos destacados
 
+### 💼 [Fintech & AI — Factoring Lead Prospecting System](https://github.com/pazssanti/factoring-leads-mercadopublico)
+Desarrollo de pipeline E2E financiero para prospección de leads de factoring utilizando datos de **Mercado Público**. Automatización del flujo completo desde la extracción hasta la toma de decisiones.
+* **Automatización con Claude Code:** Implementación de lógica de negocio y ETL modular mediante agentes de IA.
+* **Scoring & Priorización:** Sistema de calificación de prospectos basado en el historial de adjudicaciones y probabilidad de flujo de caja.
+* **Tech Stack:** Integración de APIs, procesamiento de datos en tiempo real y alertas automatizadas.
+`Python` `Claude Code` `Pandas` `ETL` `Financial Analysis`
+
+---
+
 ### 📐 [Bayesian Inference — Rasch Poisson Count Model (MCMC)](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
 Estimación MCMC con 3 cadenas y 200k iteraciones para datos de 228 estudiantes y 20 ítems. Diagnóstico de convergencia con Geweke, Gelman-Rubin y Heidelberger-Welch. Comparación inferencia bayesiana vs. clásica por AIC/BIC — **AIC bayesiano: 24.901 vs. clásico: 24.945**.  
 `R` `JAGS` `rjags` `coda` `lme4`
