@@ -1,74 +1,68 @@
 # Hola, soy María Paz Santibáñez 👋
 
-**Data Analyst · Business Analyst · Estadística Aplicada**
+**Data Analyst | Business Analyst | Especialista en Estadística Aplicada & IA**
 
-Ingeniera Civil Industrial con Magíster en Ciencias (Distinción). Entusiasta de la Ciencia de Datos e IA con alta capacidad de autoaprendizaje. Enfocada en transformar datos complejos en soluciones de negocio. Disponibilidad para trabajo presencial en la zona (Puerto Montt/Puerto Varas) o remoto.
+Ingeniera Civil Industrial con Magíster en Ciencias (Distinción). Mi enfoque combina el rigor del análisis estadístico avanzado con la visión estratégica de negocios para transformar datos complejos en soluciones accionables. Especialista en automatización de procesos, modelamiento bayesiano y desarrollo de sistemas de inteligencia de datos.
 
----
-
-## 🛠 Stack técnico
-
-| Lenguajes | BI & Visualización | Métodos |
-|-----------|-------------------|---------|
-| Python · R · SQL | Power BI · Tableau · ggplot2 · matplotlib | Machine Learning supervisado/no supervisado |
-| pandas · numpy · scikit-learn | Excel avanzado | Econometría Bayesiana (MCMC) |
-| scipy · statsmodels | | PCA · Clustering · Data Mining · Imputación múltiple |
+**📍 Ubicación:** Región de Los Lagos, Chile (Puerto Montt / Puerto Varas) | Disponible para trabajo remoto.
 
 ---
 
-## 📂 Proyectos destacados
+## 🚀 Perfil Profesional & Competencias
+
+* **Análisis Estratégico:** Capacidad para liderar proyectos de datos con visión de negocio (E2E), desde la extracción hasta la implementación de lógica de decisión.
+* **Rigor Estadístico:** Dominio de inferencia bayesiana, diagnósticos de convergencia MCMC y validación de modelos estadísticos clásicos vs. avanzados.
+* **IA & Automatización:** Experiencia implementando agentes de IA (Claude Code) para optimizar flujos de trabajo financieros y toma de decisiones.
+* **Mentalidad de Aprendizaje:** Alta capacidad de autoaprendizaje en nuevas tecnologías y metodologías de Ciencia de Datos.
+
+---
+
+## 🛠 Stack Técnico
+
+| Datos & Algoritmos | Modelamiento & Estadística | BI & Visualización | Herramientas & IA |
+| :--- | :--- | :--- | :--- |
+| **Python** (Pandas, Numpy) | **Machine Learning** (Sup/No Sup) | **Power BI** | **Claude Code** (AI Agents) |
+| **R** (Caret, Tidyverse) | **Inferencia Bayesiana** (MCMC) | **Tableau** | **SQL** |
+| **Scikit-learn** | **Reinforcement Learning** | **ggplot2** | **APIs Integration** |
+| **Minería de Datos** | **Econometría** · **ANOVA** | **Excel Avanzado** | **Git · GitHub** |
+
+---
+
+## 📂 Proyectos Destacados
 
 ### 💼 [Fintech & AI — Factoring Lead Prospecting System](https://github.com/pazssanti/factoring-leads-mercadopublico)
-Desarrollo de pipeline E2E financiero para prospección de leads de factoring utilizando datos de **Mercado Público**. Automatización del flujo completo desde la extracción hasta la toma de decisiones.
-* **Automatización con Claude Code:** Implementación de lógica de negocio y ETL modular mediante agentes de IA.
-* **Scoring & Priorización:** Sistema de calificación de prospectos basado en el historial de adjudicaciones y probabilidad de flujo de caja.
-* **Tech Stack:** Integración de APIs, procesamiento de datos en tiempo real y alertas automatizadas.
-`Python` `Claude Code` `Pandas` `ETL` `Financial Analysis`
+Desarrollo de un pipeline financiero integral para la prospección de leads en el mercado público.
+* **Impacto:** Automatización de la captura y filtrado de datos para identificar oportunidades de negocio en tiempo real.
+* **IA Agéntica:** Uso de **Claude Code** para el desarrollo de módulos ETL y lógica de scoring de prospectos.
+* `Python` `ETL` `Financial Analysis` `AI Agents`
 
----
-
-### 📐 [Bayesian Inference — Rasch Poisson Count Model (MCMC)](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
-Estimación MCMC con 3 cadenas y 200k iteraciones para datos de 228 estudiantes y 20 ítems. Diagnóstico de convergencia con Geweke, Gelman-Rubin y Heidelberger-Welch. Comparación inferencia bayesiana vs. clásica por AIC/BIC — **AIC bayesiano: 24.901 vs. clásico: 24.945**.  
-`R` `JAGS` `rjags` `coda` `lme4`
-
----
+### 📐 [Bayesian Inference — Rasch Poisson Count Model](https://github.com/pazssanti/bayesian-inference-rasch-poisson)
+Estudio avanzado de estimación MCMC (200k iteraciones) para la evaluación de ítems educativos.
+* **Hitos:** Comparación de eficiencia entre inferencia clásica vs. bayesiana (AIC/BIC), demostrando una mayor precisión en el enfoque bayesiano.
+* `R` `JAGS` `rjags` `MCMC` `Statistical Modeling`
 
 ### 🎰 [Reinforcement Learning — Multi-Armed Bandit](https://github.com/pazssanti/reinforcement-learning-mab)
-Implementación y comparación de Epsilon-Greedy, UCB y Thompson Sampling en Python. Evaluación con recompensa acumulada y arrepentimiento. Comparación estadística con **ANOVA + Tukey HSD**.  
-`Python` `numpy` `scipy` `statsmodels` `matplotlib`
+Simulación y optimización de algoritmos de toma de decisiones bajo incertidumbre.
+* **Análisis:** Evaluación comparativa de Thompson Sampling y UCB mediante pruebas de hipótesis post-hoc (Tukey HSD).
+* `Python` `Numpy` `Scipy` `Optimization`
+
+### 📋 [Data Mining — Análisis de Gran Escala (CASEN 2022)](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
+Procesamiento y análisis de la principal encuesta socioeconómica de Chile con más de 200 mil observaciones.
+* **Técnica:** Implementación de **imputación múltiple** (CART, Lasso) para el tratamiento de datos perdidos y selección de predictores de ingreso.
+* `R` `MICE` `FSelector` `Social Data Analysis`
 
 ---
 
-### 🔬 [Machine Learning — Breast Cancer Classification](https://github.com/pazssanti/modelos_predictivos_clasificacion_cancer_de_mama)
-Comparación de KNN, Regresión Logística, Árboles de Decisión, Random Forest y SVM sobre 569 observaciones. **Random Forest alcanzó AUC = 0,9993.** Validación cruzada k-fold y curvas ROC.  
-`R` `caret` `pROC` `ggplot2`
+## 🎓 Educación
+
+* **Magíster en Ciencias** (Aprobado con Distinción).
+* **Ingeniería Civil Industrial**.
 
 ---
-
-### 🏦 [Machine Learning — Bank Customer Lead Classification](https://github.com/pazssanti/DM_Clasificacion_Potenciales_Clientes_Bancarios)
-Minería de datos para segmentar y clasificar clientes potenciales del sector bancario. EDA, selección de variables con ganancia de información y comparación de clasificadores supervisados.  
-`R` `caret` `FSelector` `ggplot2`
-
----
-
-### 🏠 [Machine Learning — Housing Price Clustering (Kaggle)](https://github.com/pazssanti/Mineria-de-datos-Precio-Casas-IOWA)
-PCA con 24 componentes (95% varianza), K-means (k=2) y Hierarchical Clustering (k=4) sobre 1.460 obs. y 81 variables. Imputación CART con `mice`.  
-`R` `mice` `cluster` `factoextra`
-
----
-
-### 📋 [Data Mining — CASEN 2022 Survey (Chile)](https://github.com/pazssanti/encuesta_CASEN_2022_analisis_exploratotio)
-Análisis de variable ingreso en **202.231 observaciones**. Imputación múltiple (PMM, CART, Lasso). Selección de variables con `information gain`: nivel educacional como principal predictor del ingreso.  
-`R` `mice` `FSelector` `haven` `ggplot2`
-
----
-
-
-
-
 
 ## 📫 Contacto
 
+¿Buscas transformar tus datos en decisiones estratégicas? ¡Hablemos!
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mpaz--santi-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/mpaz-santi)
 [![Email](https://img.shields.io/badge/Email-pazssanti@gmail.com-D14836?style=flat&logo=gmail)](mailto:pazssanti@gmail.com)
-tyle=flat&logo=gmail)](mailto:pazssanti@gmail.com)
